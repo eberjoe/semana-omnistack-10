@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const routes = require('./routes');
 
 const app = express();
 
@@ -9,10 +10,6 @@ mongoose.connect('mongodb+srv://admin:162435@cluster0-nansc.azure.mongodb.net/we
 });
 
 app.use(express.json());
-
-app.post('/users', (request, response) => {
-    console.log(request.body);
-    return response.json({ message: 'Hello Man 2' });
-});
+app.use(routes);
 
 app.listen(3333);
