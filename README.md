@@ -16,4 +16,7 @@ Métodos HTTP: **GET**, **POST**, **PUT**, **DELETE**.
 #### Banco de dados
 Foi utilizado o MongoDB Atlas em conjunto com a biblioteca Mongoose.
 
+#### APIs externas
+A biblioteca Axios é utilizada para o consumo de APIs externas, como a do GitHub.
+
 
