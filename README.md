@@ -27,7 +27,18 @@ A biblioteca Axios é utilizada para o consumo de APIs externas, como a do GitHu
 * destroy
 
 ### Frontend
-Um projeto React foi inicializado com o seguinte comando do gerenciador de pacotes **Yarn**:
+
+#### Conceitos de React
+
+##### Componente
+Um componente é um bloco isolado de HTML, CSS e JS, o qual não interfere no resto da aplicação. O componente possui:
+
+* *Propriedade*: informações que um componente pai passa para um componente filho.
+
+* *Estado*: informações mantidas pelo componente, baseando-se no conceito de imutabilidade.
+
+#### Web
+Um projeto React para a web foi inicializado com o seguinte comando do gerenciador de pacotes **Yarn**:
 
 ```yarn create react-app web```
 
@@ -38,11 +49,13 @@ Foram excluídos os seguintes arquivos de ```web/src```:
 * ```serviceWorker.js```
 * ```setupTests.js```
 
-#### Conceitos de React
+#### Mobile
+Para o desenvolvimento portável iOS e Android foi utilizada a ferramenta **Expo**, instalada no Windowd com o seguinte comando:
 
-##### Componente
-Um componente é um bloco isolado de HTML, CSS e JS, o qual não interfere no resto da aplicação. O componente possui:
+```yarn global add expo-cli```
 
-* *Propriedade*: informações que um componente pai passa para um componente filho.
+Em seguida, o projeto mobile foi inicializado com o comando:
 
-* *Estado*: informações mantidas pelo componente, baseando-se no conceito de imutabilidade.
+```expo init mobile```
+
+sendo ```mobile``` o nome escolhido para a aplicação.

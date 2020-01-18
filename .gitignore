@@ -122,3 +122,19 @@ thumb
 sketch
 
 # End of https://www.gitignore.io/api/node,react
+
+# Mobile/Expo
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# macOS
+.DS_Store
