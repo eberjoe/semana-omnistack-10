@@ -58,15 +58,7 @@ Foram excluídos os seguintes arquivos de ```web/src```:
 * ```setupTests.js```
 
 #### Mobile
-Um projeto foi inicializado com o seguinte comando:
-
-```yarn create react-app mobile```
-
-Para o desenvolvimento de uma aplicação mobile portável em iOS e Android, foi utilizado **React Native**, instalado globalmente com o seguinte comando:
-
-```npm install -g react-native-cli```
-
-A ferramenta **Expo** para simulação e deploy foi instalada no Windows com o seguinte comando:
+Para o desenvolvimento de uma aplicação mobile portável em iOS e Android, foi utilizado **React Native** em conjunto com a ferramenta **Expo** para simulação e deploy, que foi instalada no Windows com o seguinte comando:
 
 ```yarn global add expo-cli```
 
