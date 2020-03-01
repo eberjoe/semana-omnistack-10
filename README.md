@@ -54,7 +54,11 @@ Foram excluídos os seguintes arquivos de ```web/src```:
 * ```setupTests.js```
 
 #### Mobile
-Para o desenvolvimento de uma aplicação mobile portável em iOS e Android, foi utilizada, em conjunto com **React Native**, a ferramenta **Expo**, instalada no Windows com o seguinte comando:
+Para o desenvolvimento de uma aplicação mobile portável em iOS e Android, foi utilizado **React Native**, instalado globalmente com o seguinte comando:
+
+```npm install -g react-native-cli```
+
+A ferramenta **Expo** para simulação e deploy foi instalada no Windows com o seguinte comando:
 
 ```yarn global add expo-cli```
 
